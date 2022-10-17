@@ -24,6 +24,10 @@ function App() {
       text: 'Деплой на Vercel и Netlify',
       completed: true,
     },
+    {
+      text: 'Загрузили проект на GitHub Pages',
+      completed: false,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
