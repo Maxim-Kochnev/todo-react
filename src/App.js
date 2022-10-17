@@ -12,22 +12,6 @@ function App() {
       text: 'Разработать ToDo на ReactJS',
       completed: false,
     },
-    {
-      text: 'Деплой React-приложения',
-      completed: true,
-    },
-    {
-      text: 'Проверка автоматической сборки',
-      completed: false,
-    },
-    {
-      text: 'Деплой на Vercel и Netlify',
-      completed: true,
-    },
-    {
-      text: 'Загрузили проект на GitHub Pages',
-      completed: false,
-    },
   ]);
 
   const onToggleCompleted = (index) => {
@@ -60,7 +44,7 @@ function App() {
   return (
     <div className="todo">
       <div className="todo__header">
-        <h4>Мои задачи</h4>
+        <h4>Список задач</h4>
       </div>
       <TaskField onAddTask={onAddTask} />
       <div className="todo__list">
